@@ -1,0 +1,6 @@
+# With DeepSeek or any other OpenAI-compatible API, no third-party packages are
+# required (the Python standard library is enough). Everything below is optional:
+python-dotenv>=1.0   # reads .env (a minimal built-in parser is used if missing)
+certifi              # install if you hit SSL certificate errors on macOS
+matplotlib           # only needed for the plotting scripts
+# google-genai>=1.0  # only needed for PROVIDER=gemini

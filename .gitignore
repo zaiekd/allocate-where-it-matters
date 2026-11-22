@@ -1,0 +1,22 @@
+# secrets: .env and every backup of it (keep the template)
+.env
+.env.*
+!.env.template
+
+# large / regenerable
+cache/
+pools/
+logs/
+results/
+
+# python / editor
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# local backups
+*.bak
+
+# LiveCodeBench data (large; download with the command in README)
+data/lcb/
